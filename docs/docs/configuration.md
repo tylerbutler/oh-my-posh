@@ -210,7 +210,7 @@ Text character to use at the end of the segment. Will take the background color 
 
 ### Foreground Templates
 
-Array if string templates to define the foreground color for the given Segment based on the Segment's Template Properties.
+Array of string templates to define the foreground color for the given Segment based on the Segment's Template Properties.
 Under the hood this uses go's [text/template][go-text-template] feature extended with [sprig][sprig] and
 offers a few standard properties to work with. For supported Segments, look for the **Template Properties** section in
 the documentation.
